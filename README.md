@@ -8,12 +8,8 @@ This is a self-directed learning project that outputs a Python based report cont
 ### RFM model customers layering
 ![image](https://github.com/user-attachments/assets/9c1c8de2-6850-4b4a-be0e-57eae3030f4e)
 ## What I learned from this project
-Processed 3.2M+ repayment records with Pandas: Cleaned datetime formats, converted categorical authentication fields to booleans, and merged multi-table datasets.  
+Data organization: Based on Deepseek to locate open source datasets containing specified keywords, clean and integrate 30w+ loan and repayment data, complete field type conversion and outlier processing.  
 
-Conducted EDA using Seaborn/Matplotlib: Analyzed loan type distributions, age segmentation, and gender-based repayment patterns through bar charts and pie plots.   
+Data Exploration: Through visual analysis of user profiles, repayment and re-borrowing behaviors, product structure and overdue repayment rate characteristics, RFM model is applied to complete user stratification.  
 
-Built RFM model with dynamic binning: Handled skewed frequency data (all users had only 1 loan) by focusing on Recency and Monetary dimensions for value stratification.  
-
-Automated data validation: Checked duplicates via ListingId uniqueness and age range consistency (17-56 years).  
-
-Applied survival analysis (Kaplan-Meier) to reveal 0% repeat-borrow rate, prompting product redesign discussions.  
+Proposed 6 business strategies, including “optimization of interest rates for small loans”, and measured the average daily demand for capital reserves based on the 3σ principle.
